@@ -120,8 +120,3 @@ margin-right: 6%;
 .volverArriba {
     margin: 2%;
 }
-footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}

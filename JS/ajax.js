@@ -4,8 +4,8 @@ $(document).ready(function () {
 	const APIURL = "https://jsonplaceholder.typicode.com/posts";
 
 	const usuarioPost = {
-		usuario: "Juan Zacarias",
-		profesion: "Abogado",
+		usuario: "Emiliano Kosh",
+		profesion: "Coder",
 	};
 
 	$("#js-post").click((e) => {

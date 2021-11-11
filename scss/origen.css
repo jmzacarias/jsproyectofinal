@@ -1299,6 +1299,10 @@ form {
   border-radius: 10%;
 }
 
+.botonSuscripcion {
+  margin: 1%;
+}
+
 @media (min-width: 769px) {
   form {
     display: -webkit-box;
