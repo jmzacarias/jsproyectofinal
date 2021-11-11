@@ -28,7 +28,6 @@ const renderOfertas = (elementos)=>{
                 carrito.push(e);
                 guardarCarritoLocal('carritoUsuario',JSON.stringify(carrito));
                 valorTotal(carrito);
-                console.log(comprobacionCarritoDisplay.style.display);
                 //Si a [carrito] se agregó su primer elemento, muestra el contenedor de carrito en el DOM (que tenía un 'display: none' en css) y reorganiza el DOM
                 if(window.getComputedStyle(comprobacionCarritoDisplay).display === 'none') {
                     $('#js-carrito').css("display", "block");
