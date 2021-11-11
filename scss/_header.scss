@@ -1,0 +1,96 @@
+/*Header*/
+
+.grid-header {
+    display: grid;
+    grid-template-areas: 
+    "pestaniaMenu redes"
+    "logo logo";    
+
+    .logo {
+        grid-area: logo;
+    }
+    /*Iconos redes sociales*/
+    .redesSociales {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 5px; 
+        margin-right: 5px;
+        justify-content: right;
+        grid-area: redes;
+    }
+    nav {
+        grid-area: menu;
+        justify-self: center;
+        align-self: end;
+        position: absolute;
+    }
+}
+
+.logoRedes {
+    width: 25px;
+    height: 25px;
+    border-radius: 30%;
+    padding: 1px;
+}
+
+/*Menu Escritorio*/
+.estiloMenu {
+    color: #DEE8D5;
+    display: none;
+}
+ul li a {
+    color: #DEE8D5;
+    text-decoration: none;
+}
+
+ul li { 
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    border-right: solid 1px;
+}
+.estiloMenuFooter {
+    .estiloMenu {
+        color: #DEE8D5;
+        display: none;
+    }
+}
+
+/*Menu Mobile*/
+.menuResponsive { /*clase para menu en cel*/
+    color: #DEE8D5;
+    display: flex; 
+    justify-content: left;
+    margin: 5px;
+    grid-area: pestaniaMenu;
+}
+
+
+
+header section ul ul{ /*esconder menu original en cel*/
+    position: absolute;
+    display: none;
+    background-color: #A0673C;
+}
+
+header section ul ul li {
+    display: block;
+    border-left: solid 1px;
+    border-bottom: solid 1px;
+}
+
+header section ul:hover ul { /*mostrar menu original en cel en columna*/
+    display: block;
+}
+
+header section ul ul li a {
+    color: #DEE8D5;
+    text-decoration: none;
+}
+
+header section ul ul li { 
+    padding: 10px 10px 10px 10px;
+    border-right: solid 1px;
+}
+
+

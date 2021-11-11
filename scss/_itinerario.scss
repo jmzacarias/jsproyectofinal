@@ -1,0 +1,230 @@
+$margen: 2%;
+
+/*Estilo Tabla Itinerario*/
+.estiloTabla {
+    background-image:url("../imagenes/DSC_0187.JPG");
+    background-size: cover;
+    font-size: smaller;
+    color: bisque;
+}
+
+.estiloParrafo { 
+    margin-left: $margen;
+    color: rgb(41, 23, 2);
+}
+
+table tr th { /*estilo celdas encabezado*/
+    padding: 15px;
+    border: solid 1px;
+}
+table tr td { /*estilo celdas cuerpo*/
+    padding: 15px;
+    border: hidden 1px;
+}
+.letraOscura {
+    color:beige
+}
+
+#encabezadoTabla {
+    background-color: #352D39;
+    font-weight: bolder;
+    font-size: large;
+    color: #D5C7BC;
+    text-transform: uppercase;
+}
+
+//animación itinerario
+.bolivia {
+    animation-name: boliviaCaida;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+    animation-delay: 2s;
+}
+
+@keyframes boliviaCaida{
+    0% {
+        transform: translateX(-1000%);}
+    100% {   }
+}
+.colombia {
+    animation-name: colombiaCaida;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+    animation-delay: 3s;
+}
+
+@keyframes colombiaCaida{
+    0% {
+        transform: translateX(-1000%);}
+    100% {   }
+}
+.myanmar {
+    animation-name: myanmarCaida;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+    animation-delay: 4s;
+}
+
+@keyframes myanmarCaida{
+    0% {
+        transform: translateX(-1000%);}
+    100% {   }
+}
+.vietnam {
+    animation-name: vietnamCaida;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+    animation-delay: 5s;
+}
+
+@keyframes vietnamCaida{
+    0% {
+        transform: translateX(-1000%);}
+    100% {   }
+}
+.laos {
+    animation-name: laosCaida;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+    animation-delay: 6s;
+}
+
+@keyframes laosaCaida{
+    0% {
+        transform: translateX(-1000%);}
+    100% {   }
+}
+.tailandia {
+    animation-name: tailandiaCaida;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+    animation-delay: 7s;
+}
+
+@keyframes tailandiaCaida{
+    0% {
+        transform: translateX(-1000%);}
+    100% {   }
+}
+.rusia {
+    animation-name: rusiaCaida;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+    animation-delay: 8s;
+}
+
+@keyframes rusiaCaida{
+    0% {
+        transform: translateX(-1000%);}
+    100% {   }
+}
+.india {
+    animation-name: rusiaCaida;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+    animation-delay: 9s;
+}
+
+@keyframes rusiaCaida{
+    0% {
+        transform: translateX(-1000%);}
+    100% {   }
+}
+.maldivas {
+    animation-name: maldivasCaida;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+    animation-delay: 10s;
+}
+
+@keyframes maldivasCaida{
+    0% {
+        transform: translateX(-1000%);}
+    100% {   }
+}
+.finlandia {
+    animation-name: finlandiaCaida;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+    animation-delay: 11s;
+}
+
+@keyframes finlandiaCaida{
+    0% {
+        transform: translateX(-1000%);}
+    100% {   }
+}
+.estonia {
+    animation-name: estoniaCaida;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+    animation-delay: 12s;
+}
+
+@keyframes estoniaCaida{
+    0% {
+        transform: translateX(-1000%);}
+    100% {   }
+}
+.canada {
+    animation-name: canadaCaida;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+    animation-delay: 13s;
+}
+
+@keyframes canadaCaida{
+    0% {
+        transform: translateX(-1000%);}
+    100% {   }
+}
+.alemania {
+    animation-name: alemaniaCaida;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+    animation-delay: 14s;
+}
+
+@keyframes alemaniaCaida{
+    0% {
+        transform: translateX(-1000%);}
+    100% {   }
+}
+.italia {
+    animation-name: italiaCaida;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+    animation-delay: 15s;
+}
+
+@keyframes italiaCaida{
+    0% {
+        transform: translateX(-1000%);}
+    100% {   }
+}
+.espania {
+    animation-name: espaniaCaida;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+    animation-delay: 16s;
+}
+
+@keyframes espaniaCaida{
+    0% {
+        transform: translateX(-1000%);}
+    100% {   }
+}
+
+
+.sacarEnMobile { 
+    display: none;
+}
+
+@media (min-width:769px) {
+    .estiloTabla {
+       margin-left: 15%;
+    }
+    .sacarEnMobile {
+        display: block;
+    }
+}

@@ -1,0 +1,54 @@
+@import "mapa";
+
+$ancho: 100%;
+.rutaCarrousel{
+    display: flex;
+    flex-direction: column; 
+    .carrouselImagenes {
+        margin-right: 2%;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        .textoCarrousel {
+            font-size: $tamanioTitulos*0.12;
+            text-align: justify;
+            margin: 15px;
+            padding-bottom: 20%;
+        }
+    }
+}
+
+section div div img {
+    border-radius: 3%;
+}
+
+
+#quitarBorde {
+    border-right: none;
+}
+
+@media (min-width:769px) {
+    .rutaCarrousel{
+        display: flex;
+        flex-direction: row; 
+        .carrouselImagenes {
+            margin-right: 2%;
+            padding-bottom: 5px;
+            padding-top: 5px;
+            display: flex;
+            flex-direction: column;
+
+        }
+        .textoCarrousel {
+            font-size: $tamanioTitulos*0.2;
+            text-align: justify;
+            margin: 15px;
+            width: 50%;
+            padding-top: 10%;
+        }
+    }
+}

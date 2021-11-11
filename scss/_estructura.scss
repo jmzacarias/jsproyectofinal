@@ -1,0 +1,89 @@
+/*Reseteo de CSS*/
+* {
+    margin: 0;
+    padding: 0;
+}
+$tamanioTitulos: 80px;
+    
+html {
+    color: #352D39;
+}
+
+/*Estilo de body*/
+body {
+    background-color: #A0673C;
+}
+
+main {
+    background-color: #DEE8D5;
+    background-image: linear-gradient(315deg, #544233 0%, #DEE8D5 85%);
+
+}
+
+footer {
+    background-color: #A0673C;
+    height: fit-content;
+}
+/*Centrar Texto*/
+.centrarTexto {
+    text-align: center;
+}
+
+/*Alinear a la derecha*/
+.alinearDerecha {
+    text-align: right;
+    margin-right: 2%;
+}
+
+/*Alinear a la izquierda*/
+.alinearIzquierda {
+    text-align: left;
+}
+
+/*Estilo fuente*/
+.cursiva {
+    font-style: italic;
+}
+
+/*Alineación H1 centrado*/
+h1 {
+    text-align: center;
+    /*padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: $tamanioTitulos;*/
+    font-size: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/*Tamaño H2*/
+h2 {
+    text-align: center;
+    font-size: $tamanioTitulos*0.8;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: $tamanioTitulos*0.3;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-align: left;
+    font-weight: 500;
+
+}
+
+h4{
+    font-size: $tamanioTitulos*0.27;
+    text-decoration: none;
+    margin-bottom: 15px;
+    margin-right: 30px;
+    text-align: right;
+    font-weight: 400;
+}
+/*Tamaño fuente footer*/
+footer {
+    font-size: small;
+}

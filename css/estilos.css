@@ -1,0 +1,92 @@
+main img {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-style: solid;
+}
+
+.ofertas {
+    display: flex;
+    flex-direction: row;
+}
+
+main p {
+    margin: 20px;
+}
+
+.importe {
+    position: fixed;
+    top: 10%;
+    left: 25%;
+    width: 250px;
+    padding: 50px;
+    background-color: #291702;
+    color: bisque;
+    font-size: medium;
+    border-radius: 10px;
+    opacity: 80%;
+}
+
+#boton {
+    background-color: #291702;
+    color: antiquewhite;
+    margin: 5%;
+}
+
+.barraBusqueda {
+    display: flex;
+    margin: 5%
+}
+
+
+
+h4 {
+    font-size: 20px;
+}
+.agregados {
+    font-size: 15px;
+}
+/* contenedor de toooodo */
+.ofertasCarrito {
+    display: flex;
+    flex-direction: row;
+}
+/* contenedor de todos los productos */
+.ofertas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+/* contenedor de cada producto */
+.ofertaDestino {
+    display: Flex;
+    border: solid;
+    width: 30%;
+    margin: 2%;
+} 
+.textoOferta {
+    display: flex;
+    flex-direction: column;
+    
+}
+/*clase texto impuesto  */
+.textoImpuesto {
+    font-size: 12px;
+}
+
+/* id de contenedor de carrito para modificar estilo*/
+#js-carrito {
+    display: none;
+}
+
+/* carrito */
+.cart {
+    width: 25%;
+    background-color: whitesmoke;
+    color: rgb(47, 27, 3);
+    font-size: smaller;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #291702;
+    opacity: 80%;  
+}

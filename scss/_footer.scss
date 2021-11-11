@@ -1,0 +1,39 @@
+.menuResponsiveFooter {
+    color: #DEE8D5;
+    display: flex; 
+    justify-content: center;
+    margin: 5px;
+}
+
+
+footer section ul ul{ /*esconder menu original en cel*/
+    position: absolute;
+    display: none;
+    background-color: #A0673C;
+}
+
+footer section ul ul li {
+    display: block;
+    border-left: solid 1px;
+    border-bottom: solid 1px;
+}
+
+footer section ul:hover ul { /*mostrar menu original en cel en columna*/
+display: flex;
+flex-direction: column;
+position: relative;
+top: -100%;
+}
+
+footer section ul ul li a {
+    color: #DEE8D5;
+    text-decoration: none;
+}
+
+footer section ul ul li { 
+    padding: 10px 10px 10px 10px;
+}
+
+.copyright {
+    position: static;
+}

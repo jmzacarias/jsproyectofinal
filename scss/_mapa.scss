@@ -1,0 +1,70 @@
+/*En este documento se desarrollarán los estilos del mapa que contiene el index*/@at-root
+.mapa figure {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+        .mapa__sudamerica {
+            position: absolute;
+            top: 46%;
+            left: 22%;
+            width: 17%;
+            cursor: pointer;
+        }
+        .mapa__sudamerica:hover img {
+            visibility: visible;
+            filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+            animation-name: continente;
+            animation-duration: 1.5s;
+            animation-timing-function: ease-in;
+            animation-fill-mode: forwards;
+        }
+        .mapa__europa {
+            position: absolute;
+            top: 8.9%;
+            left: 43%;
+            width: 24.5%;
+            cursor: pointer;
+            img {
+                visibility: hidden;
+            }
+        }
+        .mapa__europa:hover img {
+            visibility: visible;
+            filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+            animation-name: continente;
+            animation-duration: 1.5s;
+            animation-timing-function: ease-in;
+            animation-fill-mode: forwards;
+        }
+        .mapa__asia {
+            position: absolute;
+            top: 14%;
+            left: 58%;
+            width: 29%;
+            cursor: pointer;
+            img {
+                visibility: hidden;
+            }
+        }
+        .mapa__asia:hover img {
+            visibility: visible;
+            filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+            animation-name: continente;
+            animation-duration: 1.5s;
+            animation-timing-function: ease-in;
+            animation-fill-mode: forwards;
+       }
+    }
+
+    @keyframes continente {
+        0%{
+
+        }
+        100%{
+            transform: scale(1.25);
+        }
+    }

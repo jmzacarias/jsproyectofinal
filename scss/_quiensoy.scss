@@ -1,0 +1,26 @@
+/*Quien Soy*/
+    /*Foto*/
+
+.quienSoy {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    overflow: hidden;
+    .quienSoy__img {
+        width: 80%;
+        margin: 2%;
+    }
+    .quienSoy__txt {
+        margin: 2%;
+        padding: 2%;
+        width: 80%;
+        text-align: justify; 
+    }
+}
+@media (min-width:769px) {
+    .quienSoy {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+    }
+}

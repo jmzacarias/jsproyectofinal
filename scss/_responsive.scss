@@ -1,0 +1,25 @@
+@media (min-width:769px) {
+    .menuResponsive {
+        display: none;
+    }
+    .grid-header {
+        grid-template-areas: 
+        "logo . redes"
+        "logo . ."
+        "logo menu .";
+    }
+    .logoRedes {
+        width: 35px;
+        height: 35px;
+        transition: height 1s width 1s;
+    }
+    .logoRedes:hover {
+        height: 50px;
+        width: 50px;
+        filter: opacity(70%);
+    }
+    .estiloMenu {
+        display: flex;
+        justify-content: center;
+    }
+}
